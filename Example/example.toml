@@ -1,1 +1,1 @@
-include = ["*.example.toml"]
+include = ["*.example.toml"] mcr.microsoft.com/azurelinux-beta/base/core:4.0
