@@ -44,7 +44,7 @@ git commit -m "fix(<name>): ..."
 azldev comp render -p <name>
 git add specs/<first-char>/<name>/
 git commit --amend --no-edit
-docker run -it --rm mcr.microsoft.com/azurelinux/base/core:3.0
+docker run -it --rm mcr.microsoft.com/azurelinux/base/core:4.0
 ```
 
 ### Why the second render-and-amend?
