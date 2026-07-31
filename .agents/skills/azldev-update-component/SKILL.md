@@ -32,7 +32,7 @@ For most edits — overlays, build flags, metadata — run `update` once at the 
 then re-render *after committing* so the generated changelog and release reflect
 your new commit:
 
-```sh
+```bash
 azldev comp update -p <name>
 azldev comp render -p <name>
 git add <changed-component-config-and-source-paths> \
@@ -44,6 +44,7 @@ git commit -m "fix(<name>): ..."
 azldev comp render -p <name>
 git add specs/<first-char>/<name>/
 git commit --amend --no-edit
+docker run -it --rm mcr.microsoft.com/azurelinux/base/core:3.0
 ```
 
 ### Why the second render-and-amend?
