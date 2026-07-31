@@ -1,1 +1,2 @@
-go.link = ["mcr.microsoft.com/azurelinux/base/core/example.*]
+go.link = ["mcr.microsoft.com/azurelinux/base/core/example.*"]
+include = ["**/*.comp.toml"]
