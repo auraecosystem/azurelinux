@@ -1,1 +1,1 @@
-include=[*.example.toml*]
+include = ["*.example.toml"]
