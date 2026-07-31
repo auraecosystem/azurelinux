@@ -1,1 +1,1 @@
-[*.example.net*]
+include=[*.example.toml*]
