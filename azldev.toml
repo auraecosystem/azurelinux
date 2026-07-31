@@ -4,4 +4,4 @@
 # git branches. For now, we stitch them together into a coherent configuration
 # namespace by including them both in this file.
 
-includes = ["distro/distro.toml", "base/project.toml"]
+includes = ["distro/distro.toml", "base/project.toml","example/example.gql"]
